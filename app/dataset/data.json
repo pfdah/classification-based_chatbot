@@ -1,0 +1,316 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "Heyyy",
+                "Howdy",
+                "Is anyone there?",
+                "Hello",
+                "Hello can you help me?",
+                "Anyone?",
+                "Any one?",
+                "Anyone here?",
+                "Somebody here?",
+                "Hello. Is anybody here?",
+                "Excuse Me",
+                "Any body here",
+                "Anybody here",
+                "Hello, can someone respond?",
+                "Is there anybody present?",
+                "Hey, is anybody there?",
+                "Does anyone happen to be here?",
+                "Is there someone available?",
+                "Hello, can I get a response from someone?"
+            ],
+            "responses":[
+                "Hello!",
+                "Hi there, how can I help?",
+                "Hello! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "care",
+            "patterns": [
+                "How are you?",
+                "What's up?",
+                "How you doing?",
+                "How are ya?",
+                "How is it going?",
+                "Are you fine?",
+                "Are you OK?",
+                "You OK?",
+                "Sup'",
+                "How are you",
+                "What's up?",
+                "How are you doing?",
+                "How have you been?",
+                "Are you okay?",
+                "Is everything alright?",
+                "Are you feeling well?",
+                "Are you feeling alright?"
+            ],
+            "responses": [
+                "I'm fine, Thanks for asking.",
+                "I'm doing well",
+                "I'm fine. And you ?",
+                "Hi, i am fine. How about you?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "See you later",
+                "Goodbye",
+                "Good bye",
+                "I am Leaving",
+                "Have a Good day!",
+                "Bye",
+                "Bye bye",
+                "Gotta Go",
+                "I am going",
+                "Until we meet again!",
+                "see you again next time",
+                "Until next time",
+                "See you",
+                "Till next time",
+                "See you next time",
+                "I have to go now"
+            ],
+            "responses":[
+                "Sad to see you go :(",
+                "Have a great day!",
+                "Talk to you later",
+                "Goodbye!",
+                "See you later, thanks for visiting",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag":"morning",
+            "patterns":[
+                "Good morning there!",
+                "Morning",
+                "Mornin",
+                "Good mornin",
+                "GM",
+                "Hope you're having a lovely morning!",
+                "It's nice to see you this morning!",
+                "I hope your morning is going well!",
+                "Mrng",
+                "Good Morning",
+                "Good  Morning....... TAI ",
+                "Top of the morning to ya",
+                "Top of the morning to you"
+            ],
+            "responses":[
+                "Good morning sir/mam. How can I help you?",
+                "Very good morning",
+                "A very good morning to you. How may I be of assistance to you?"
+            ]
+        },
+        {
+            "tag":"name",
+            "patterns":[
+                "What is your name?",
+                "your name?",
+                "What your name?",
+                "What should I call you?",
+                "What's your name?",
+                "Could you please tell me your name?",
+                "provide your name?",
+                "Who are you?",
+                "What are you?",
+                "Tell me about yourself",
+                "Tell me about you",
+                "I like to know about you",
+                "What can I call you?",
+                "Can you tell me your name?",
+                "May I have your name please?",
+                "Do you mind telling me your name?",
+                "Excuse me, could you share your name with me?",
+                "Could you introduce yourself?",
+                "What is your introduction?"
+            ],
+            "responses":[
+                "I am Bond ...... Chat Bond.",
+                "Hi, I am ChatBond your virtual assistance.",
+                "Hi, I am Chat Bond, a chatbot designed to help you."
+            ]
+        },
+        {
+            "tag":"afternoon",
+            "patterns":[
+                "Good afternoon",
+                "Afternoon to you",
+                "Happy afternoon to you!",
+                "Warm wishes for the afternoon!",
+                "Hope you're having a lovely afternoon!",
+                "It's nice to see you this afternoon!",
+                "I hope your afternoon is going well!",
+                "Wishing you a pleasant afternoon!",
+                "Afternoon",
+                "After noon",
+                "Good After noon"
+            ],
+            "responses":[
+                "Good afternoon sir/ma'am. How can i assist you?",
+                "Good afternoon sir/ma'am. What can I help you with?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+            "Thanks, I appreciate your help.", 
+            "Thank you",
+            "Thanks",
+            "Thank you so much",
+            "Thanks for the help", 
+            "Thank you for the help", 
+            "That is helpful",
+            "That's helpful",
+            "I appreciate your help.",
+            "Thank you for your assistance.",
+            "Thanks for your assistance.",
+            "I am thankful.",
+            "I appreciate your guidance"
+        ],
+            "responses": ["Happy to help!",
+             "Any time!", 
+             "My pleasure"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+            "I need your help.", 
+            "Help?",
+            "Help me",
+            "anyone help me",
+            "any one help me",
+            "someone help me",
+            "some one help me",
+            "Help me please?",
+            "Can you help me?",
+            "I need help.",
+            "I need some guidance about the company",
+            "I need to know about the company, can you help me?",
+            "I want help about the organization",
+            "I need some help for information."
+        ],
+            "responses": [
+             "How can I help you?",
+             "Please write the query you need the help for!", 
+             "Please clarify what you need help for"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+            "Tell me a joke",
+            "Joke",
+            "Tell a joke.",
+            "Say me a joke",
+            "Joking time",
+            "Jokes",
+            "Joke to laugh at",
+            "Mind refreshment",
+            "Mind refresh ment",
+            "I want to laugh",
+            "A joke to laugh at.",
+            "A funny joke",
+            "Tell me a funny joke.",
+            "Tell me a funny story"
+        ],
+            "responses": [
+             "Why couldn't the bicycle stand up by itself? Because it was two-tired!",
+             "Why do programmers prefer dark mode? Because light attracts bugs!", 
+             "Why don't scientists trust atoms? Because they make up everything!",
+             "Why did Batman go to the grocery store? To get his Dark Knight Vitamins!",
+             "Why did the programmer quit his job? He didn't get arrays."
+            ]
+        },
+        {
+            "tag":"evening",
+            "patterns":[
+                "Good evening",
+                "Evening",
+                "Hope you're having a great evening!",
+                "Wishing you a wonderful evening!",
+                "Have a good evening!",
+                "Good evening to you"
+            ],
+            "responses":[
+                "Good evening sir/ma'am. How can I help you?"
+            ]
+        },
+        {
+            "tag":"night",
+            "patterns":[
+                "Good night!",
+                "Nighty-night!",
+                "Nighty night!",
+                "Goodnight",
+                "Goodnight sleep tight",
+                "Hope you're having a great sleep!",
+                "Wishing you a wonderful sleep"
+            ],
+            "responses":[
+                "Nighty-night!",
+                "Good Night",
+                "Sleep tight" 
+            ]
+        },
+        {
+            "tag":"developed",
+            "patterns":[
+                "Who developed you?",
+                "How were you developed?",
+                "Who programmed you?",
+                "Who designed you?",
+                "Who designed chat bot?",
+                "Designer of the chatbot system",
+                "Who created you?",
+                "Who are the brains behind your operation?",
+                "Who created you as an AI language model?",
+                "Who designed you as a machine learning model?",
+                "Who is behind your development and ongoing improvements?",
+                "Who is the team responsible for your development and maintenance?"
+            ],
+            "responses":[
+                "Interns of TAI-AI/ML team developed me."
+            ]
+        },
+        {
+            "tag":"okay",
+            "patterns":[
+                "That works for me.",
+                "I understood it.",
+                "I appreciate your quick response.",
+                "Sounds good.",
+                "Ok",
+                "o k",
+                "okay",
+                "All right",
+                "I see",
+                "Of course",
+                "Aye aye",
+                "That works",
+                "Understood",
+                "Under stood",
+                "I am grateful for your quick reply.",
+                "Your timely response is greatly valued.",
+                "Your quick response is very much appreciated.",
+                "Thank you for your quick and helpful response."
+            ],
+            "responses":[
+                "Thank you",
+                "Great, what else can I help you with?",
+                "Let me know if you need anything else."
+            ]
+        }
+
+    ]
+}
